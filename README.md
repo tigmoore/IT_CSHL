@@ -35,7 +35,8 @@ ensure paths to movie frame data and grey_image.png are correct,
 MOVIE_DATA is a directory of all pngs for the video clips 
 run ```videomae_grey_screen_extract.py```
 This script treats the transformer as a sliding window over the video clip padded by 16 frames of grey image on either end, and extracts the final temporal token averaged response as a numpy variable 'hidden_states.npy'. 
-![model_diagram](https://github.com/user-attachments/assets/99aacc72-afee-4852-bc8e-30ac8123baf3)
+![model_diagram](https://github.com/user-attachments/assets/bc1311f6-c91b-468b-8b17-9d3e5b6f2b83)
+
 
 The shape of 'hidden_states.npy'  = (total_num_frames, num_hidden_units)
 
