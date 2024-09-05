@@ -1,5 +1,5 @@
 # IT_CSHL
-This repo analyizes spike trains recorded from macaque IT cortex as well as videoMAE responses to the same video clips
+This repo analyzes spike trains recorded from macaque IT cortex while watching a diverse set of videos. We then push the same videos through a videoMAE transformer to investigate the responses to the same video clips. After using this repo to process and understand the data, we can do further experiments to test if ANN responses to videos are predictive of IT cortex responsive.
 
 Steps for preprocessing IT data:
 ### 1. Convert .mat to python compatible structures for data files using mat_2_py.py 
